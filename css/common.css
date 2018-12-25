@@ -1,0 +1,74 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+footer{
+    text-align: center;
+}
+.head-protrait{
+    width: 100px;
+    height: 100px;
+}
+html,body{
+    height: 100%;
+}
+.content-container{
+    display: flex;
+    height: 100%;
+    background: url("../images/bg.jpg") top left no-repeat #666;
+    background-size: cover;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 16px;
+    color: #fff;
+}
+.content{
+    width: 300px;
+    margin: auto;
+}
+.long{
+    margin: auto;
+    width: 80% 
+}
+.short{
+    margin:auto;
+    width: 50%  
+ }
+ .content a{
+    margin: 0 15px;
+    color: #fff;
+}
+.content *{
+    margin-top:10px;
+}
+.head-content img{
+    transition: transform 1s linear;
+}
+.head-content:hover img{
+    transform: rotate(360deg);
+}
+.introduction{
+    margin-top: -72px;
+    margin-bottom: 40px;
+    color: #fff; 
+    opacity: 0;
+}
+.head-content .introduction{
+    transition: margin-left 1s linear,opacity 1s linear;
+}
+.head-content:hover .introduction{
+    margin-left: 150px;
+    opacity:1;
+}
