@@ -38,15 +38,20 @@ html,body{
     color: #fff;
 }
 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     width: 300px;
     margin: auto;
 }
 .long{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 80% 
 }
 .short{
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%  
  }
  .content a{
